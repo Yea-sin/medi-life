@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <>
       <div className="mt-5">
-        <h2 className="service">OUR SERVICES</h2>
+        <h2 className="services-title">OUR SERVICES</h2>
         <div>
           <img
             src="https://i.ibb.co/gdSkQnc/heartbeat.png"
@@ -18,7 +18,7 @@ const Services = () => {
             alt=""
           />
         </div>
-        <Container>
+        <Container className="services">
           <Row lg={3} md={3} sm={1} className="my-4 g-5">
             {services.slice(0, 6).map((service) => (
               <Service key={service.id} service={service}></Service>
