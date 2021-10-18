@@ -1,0 +1,9 @@
+.banner-text {
+  position: absolute;
+  top: 65%;
+  left: 56%;
+}
+.banner-text p,
+h2 {
+  white-space: nowrap;
+}

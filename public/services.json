@@ -1,0 +1,68 @@
+[
+  {
+    "name": "PROFESSIONAL DOCTORS",
+    "id": 1,
+    "image": "https://i.ibb.co/JQCdPGV/doctor.png",
+    "description": "When you need answers, Best Doctors can help.Get an Expert Medical Opinion from one of our world-renowned specialists so you can have the answers and confidence to make informed decisions about your health."
+  },
+  {
+    "name": "MEDICAL COUNSELING",
+    "id": 2,
+    "image": "https://i.ibb.co/K62q749/counselling.png",
+    "description": "During challenging times, it can really help to have sufficient personal time with a compassionate, knowledgeable physician who is experienced in family medicine and has specialized training in counseling — who listens to you, and offers caring support and expert guidance. "
+  },
+  {
+    "name": "EMERGENCY CARE",
+    "id": 3,
+    "image": "https://i.ibb.co/2PhYvQ8/emergency-care.png",
+    "description": "Emergency medical services, also known as ambulance services or paramedic services, are emergency services that provide urgent pre-hospital treatment and stabilisation for serious illness and injuries and transport to definitive care."
+  },
+  {
+    "name": "REHABILITION CENTER",
+    "id": 4,
+    "image": "https://i.ibb.co/cx4LkNk/rehabilition.png",
+    "description": "Rehabilitation hospitals, also referred to as inpatient rehabilitation hospitals, are devoted to the rehabilitation of patients with various neurological, musculoskeletal, orthopedic, and other medical conditions following stabilisation of their acute medical issues."
+  },
+  {
+    "name": "EXCLUSIVE BLOOD BANK",
+    "id": 5,
+    "image": "https://i.ibb.co/CHpzQvC/blood-bank.png",
+    "description": "A blood bank is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion. The term \"blood bank\" typically refers to a division of a hospital where the storage of blood product occurs and where proper testing is performed."
+  },
+  {
+    "name": "SPECIAL CARE UNIT",
+    "id": 6,
+    "image": "https://i.ibb.co/PN0SMJb/care.png",
+    "description": "An intensive care unit, also known as an intensive therapy unit or intensive treatment unit or critical care unit, is a special department of a hospital or health care facility that provides intensive care medicine."
+  },
+  {
+    "name": "24 HOURS SERVICE",
+    "id": 7,
+    "image": "https://i.ibb.co/hFb8ytJ/24-hour.png",
+    "description": "No one knows what emergency might come up, we surely do not want to take a risk. We have promised you that we will take care of all your health care concerns and we intend to strongly stand by it. Health at Homes offers you with 24-hour health service."
+  },
+  {
+    "name": "INHOUSE PHARMECY",
+    "id": 8,
+    "image": "https://i.ibb.co/Zc5h4Yv/inhouse-pharmacy.png",
+    "description": "Inhouse pharmacies are pharmacies usually found within the premises of a hospital. ... Inhouse pharmacies may provide a huge quantity of medications per day which is allocated to the wards and to intensive care units according to a patients medication schedule"
+  },
+  {
+    "name": "DENTAL",
+    "id": 9,
+    "image": "https://i.ibb.co/6yB4nZq/tooth.png",
+    "description": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral ..."
+  },
+  {
+    "name": "PROFESSIONAL NURSING",
+    "id": 10,
+    "image": "https://i.ibb.co/ngghWr3/nurse.png",
+    "description": "Professionalism in nursing means providing top-quality care to patients, while also upholding the values of accountability, respect, and integrity.When nurses exhibit professional behaviors, patients receive better care, team communication is improved, there is increased accountability among all practitioners, and the overall clinical environment is more positive."
+  },
+  {
+    "name": "AMBULANCE",
+    "id": 11,
+    "image": "https://i.ibb.co/SK0Bcdd/ambulance.png",
+    "description": "An ambulance is a medically equipped vehicle which transports patients to treatment facilities, such as hospitals. Typically, out-of-hospital medical care is provided to the patient. Ambulances are used to respond to medical emergencies by emergency medical services."
+  }
+]
