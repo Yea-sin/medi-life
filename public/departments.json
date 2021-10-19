@@ -1,0 +1,50 @@
+[
+  {
+    "name": "MEDICINE",
+    "id": 1,
+    "img": "https://i.ibb.co/Tmd6c6K/medicine.jpg",
+    "info": "Internal medicine or general internal medicine is the medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases. Physicians specializing in internal medicine are called internists, or physicians in Commonwealth nations."
+  },
+  {
+    "name": "CARDIOLOGY",
+    "id": 2,
+    "img": "https://i.ibb.co/HqqwkQ6/cardiolo.jpg",
+    "info": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology"
+  },
+  {
+    "name": "NEUROLOGY",
+    "id": 3,
+    "img": "https://i.ibb.co/kVZztDW/neuro.jpg",
+    "info": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle."
+  },
+  {
+    "name": "GASTROLOGY",
+    "id": 4,
+    "img": "https://i.ibb.co/sPHC48D/gastro.jpg",
+    "info": "Gastroenterology is the branch of medicine focused on the digestive system and its disorders. Diseases affecting the gastrointestinal tract, which include the organs from mouth into anus, along the alimentary canal, are the focus of this speciality. Physicians practicing in this field are called gastroenterologists"
+  },
+  {
+    "name": "UROLOGY",
+    "id": 5,
+    "img": "https://i.ibb.co/bHXZq9P/uro.jpg",
+    "info": "Urology, also known as genitourinary surgery, is the branch of medicine that focuses on surgical and medical diseases of the male and female urinary-tract system and the male reproductive organs."
+  },
+  {
+    "name": "DENTAL",
+    "id": 6,
+    "img": "https://i.ibb.co/G0Hncy1/denatal.jpg",
+    "info": "Dental care is the practice of keeping ones mouth clean and free of disease and other problems by regular brushing of the teeth and cleaning between the teeth. It is important that oral hygiene be carried out on a regular basis to enable prevention of dental disease and bad breath"
+  },
+  {
+    "name": "GYNECOLOGY",
+    "id": 7,
+    "img": "https://i.ibb.co/q9WdjBp/gynecology.jpg",
+    "info": "Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians. In many areas, the specialities of gynaecology and obstetrics overlap. The term means \"the science of women"
+  },
+  {
+    "name": "CHILD CARE",
+    "id": 8,
+    "img": "https://i.ibb.co/RYB0Jdz/child.jpg",
+    "info": "Child care refers to the care provided for infants and toddlers, preschoolers, and school-aged children, either in their own homes, in the home of a relative or other caregiver, or in a center-based facility."
+  }
+]

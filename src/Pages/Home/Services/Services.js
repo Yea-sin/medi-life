@@ -8,7 +8,7 @@ const Services = () => {
   const { services } = useService();
   return (
     <>
-      <div className="mt-5">
+      <div id="services" className="mt-5">
         <h2 className="services-title">OUR SERVICES</h2>
         <div>
           <img

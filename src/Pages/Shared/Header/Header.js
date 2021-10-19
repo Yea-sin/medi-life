@@ -21,28 +21,22 @@ const Header = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="d-flex align-items-center ms-auto my-2 my-lg-0 menu"
+              className="d-flex align-items-center ms-auto my-2 my-lg-0 "
               style={{ maxHeight: "100px" }}
               navbarScroll>
-              <div className="me-3">
-                <NavLink
-                  activeClassName="activate"
-                  as={HashLink}
-                  to="/home#home">
+              <div className="me-3 menu">
+                <Nav.Link as={HashLink} to="/home#home">
                   Home
-                </NavLink>
-                <NavLink
-                  activeClassName="active"
-                  as={HashLink}
-                  to="/home#services">
+                </Nav.Link>
+                <Nav.Link as={HashLink} to="/home#services">
                   Services
-                </NavLink>
-                <NavLink
-                  activeClassName="active"
-                  as={HashLink}
-                  to="/home#about">
+                </Nav.Link>
+                <Nav.Link as={HashLink} to="/departments">
+                  Departments
+                </Nav.Link>
+                <Nav.Link as={HashLink} to="/home#about">
                   About
-                </NavLink>
+                </Nav.Link>
               </div>
               <div className="d-flex justify-content-center ms-3">
                 <Button variant="outline-success">Sing In</Button>

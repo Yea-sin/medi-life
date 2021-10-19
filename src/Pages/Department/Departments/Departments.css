@@ -1,0 +1,15 @@
+.department-menu {
+  max-width: 380px;
+}
+.department-bg {
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.department-menu > p {
+  display: inline;
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 3px 3px 3px;
+  border: 1px solid black;
+  font-family: "Dosis", sans-serif;
+}
