@@ -7,7 +7,7 @@ import { FaUserMd } from "react-icons/fa";
 const Counter = () => {
   return (
     <>
-      <div className="p-5 counter">
+      <div className="p-5 counter my-5">
         <Container>
           <Row lg={4} md={4} sm={2} xs={1} className="g-3">
             <Col>

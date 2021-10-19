@@ -13,7 +13,7 @@ const Departments = () => {
   return (
     <>
       <div className="mt-5">
-        <h2 className="services-title">OUR DEPARTMNETS</h2>
+        <h2 className="title">OUR DEPARTMNETS</h2>
         <div>
           <img
             src="https://i.ibb.co/gdSkQnc/heartbeat.png"

@@ -1,10 +1,19 @@
 import React from "react";
 import "./Header.css";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { useHistory } from "react-router";
+import useAuth from "../../../Hooks/useAuth";
 
 const Header = () => {
+  const history = useHistory();
+  const handleSingIn = () => {
+    history.push("/singIn");
+  };
+  const handleSingUp = () => {
+    history.push("/singUp");
+  };
+  const { user, logOut } = useAuth();
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
@@ -34,16 +43,38 @@ const Header = () => {
                 <Nav.Link as={HashLink} to="/departments">
                   Departments
                 </Nav.Link>
-                <Nav.Link as={HashLink} to="/home#about">
-                  About
+                <Nav.Link as={HashLink} to="/doctors">
+                  Doctors
                 </Nav.Link>
               </div>
-              <div className="d-flex justify-content-center ms-3">
-                <Button variant="outline-success">Sing In</Button>
-                <Button variant="outline-info" className="ms-2">
-                  Sing Up
-                </Button>
-              </div>
+              {user?.displayName ? (
+                <div className="d-flex align-items-center">
+                  <Button onClick={() => logOut()} variant="outline-primary">
+                    Sing Out
+                  </Button>
+                  <small className="ms-2">{user.displayName}</small>
+                  <img
+                    src={user.photoURL}
+                    style={{ borderRadius: "50%" }}
+                    width="50px"
+                    alt=""
+                  />
+                </div>
+              ) : (
+                <div className="d-flex justify-content-center ms-3">
+                  <Button
+                    onClick={() => handleSingIn()}
+                    variant="outline-success">
+                    Sing In
+                  </Button>
+                  <Button
+                    onClick={() => handleSingUp()}
+                    variant="outline-info"
+                    className="ms-2">
+                    Sing Up
+                  </Button>
+                </div>
+              )}
             </Nav>
           </Navbar.Collapse>
         </Container>

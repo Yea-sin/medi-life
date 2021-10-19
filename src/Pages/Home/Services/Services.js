@@ -5,11 +5,11 @@ import Service from "../Service/Service";
 import "./Services.css";
 
 const Services = () => {
-  const { services } = useService();
+  const [services] = useService();
   return (
     <>
-      <div id="services" className="mt-5">
-        <h2 className="services-title">OUR SERVICES</h2>
+      <div id="services" className="my-5">
+        <h2 className="title">OUR SERVICES</h2>
         <div>
           <img
             src="https://i.ibb.co/gdSkQnc/heartbeat.png"

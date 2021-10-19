@@ -5,7 +5,8 @@ import { NavLink } from "react-router-dom";
 import { FcViewDetails } from "react-icons/fc";
 
 const Service = ({ service }) => {
-  const { image, name } = service;
+  const { image, name, description } = service;
+
   return (
     <>
       <Col>
@@ -14,7 +15,7 @@ const Service = ({ service }) => {
         </div>
         <h4>{name}</h4>
         <p className="service-details">
-          <NavLink to="/services">
+          <NavLink to={`/services/${description}`}>
             See details <FcViewDetails className="mb-1" />
           </NavLink>
         </p>
