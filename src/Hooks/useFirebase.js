@@ -17,22 +17,31 @@ const useFirebase = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
   const singInUsingGoogle = () => {
+    setIsLoading(true);
     return signInWithPopup(auth, googleProvider)
       .then((result) => {
         setUser(result.user);
         console.log(result.user);
       })
-      .catch((e) => setError(e.message));
+      .catch((e) => setError(e.message))
+      .finally(setIsLoading(false));
   };
   const logOut = () => {
-    signOut(auth).then(() => setUser({}));
+    setIsLoading(true);
+    signOut(auth)
+      .then(() => setUser({}))
+      .finally(setIsLoading(false));
   };
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
+      } else {
+        setUser({});
       }
+      setIsLoading(false);
     });
     return unsubscribe;
   });
@@ -72,6 +81,7 @@ const useFirebase = () => {
     handleSingUp,
     singInUsingGoogle,
     logOut,
+    isLoading,
     user,
     error,
   };

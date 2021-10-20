@@ -4,6 +4,7 @@ import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 import { useHistory } from "react-router";
 import useAuth from "../../../Hooks/useAuth";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const history = useHistory();
@@ -18,7 +19,7 @@ const Header = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={Link} to="/home">
             <img
               src="https://i.ibb.co/SR1j4K5/logo.png"
               width="140"
