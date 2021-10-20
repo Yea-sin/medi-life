@@ -47,7 +47,7 @@ const Header = () => {
                   Doctors
                 </Nav.Link>
               </div>
-              {user?.displayName ? (
+              {user?.email ? (
                 <div className="d-flex align-items-center">
                   <Button onClick={() => logOut()} variant="outline-primary">
                     Sing Out

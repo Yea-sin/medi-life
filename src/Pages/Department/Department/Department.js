@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 const Department = ({ department }) => {
-  console.log(department);
   const { name, info, img } = department;
   return (
     <Row
